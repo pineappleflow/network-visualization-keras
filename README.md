@@ -19,6 +19,8 @@ inception = InceptionV3()
 draw_graph(inception)
 ```
 
-## (TODO) Examples
+## Examples
+**Inception v3**
+<img src="inception_v3.png">
 
 

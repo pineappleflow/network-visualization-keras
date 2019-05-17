@@ -3,6 +3,8 @@
 ## Introduction
 Neural Network visualization is a key part of communicating novel architectures, whether in the academic or research space. Commonly used tools like ```keras.utils.plot_model``` do well to help in presenting model complexity and in debugging purposes, but fail to communicate architectures effectively. Alternatively, Tensorboard offers a semantically more pleasing presentation, but requires that tensors be loaded into memory - making visualization computationally expensive. This repository aims to combine the best of both by drawing comprehensive and semantically pleasing network graphs.
 
+Styles are inspired from [this Google AI blog](https://ai.googleblog.com/2016/08/improving-inception-and-image.html)
+
 ## Setup
 ```shell
 pip install -r requirements.txt
@@ -21,6 +23,8 @@ draw_graph(inception)
 
 ## Examples
 **Inception v3**
+<br> 
+
 <img src="inception_v3.png">
 
 

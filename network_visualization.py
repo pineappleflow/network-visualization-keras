@@ -1,13 +1,10 @@
 """ Module for drawing Keras netowork graph architectures """
 
-import glob
-import numpy as np
 from itertools import compress
+import numpy as np
 import pydot
 import graphviz
-import pickle
 import keras
-import matplotlib.pyplot as plt
 from IPython.display import Image, display
 
 

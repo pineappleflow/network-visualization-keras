@@ -42,7 +42,7 @@ LAYER_COLOR_DICT = {
     keras.layers.core.RepeatVector: "grey",
     keras.layers.merge.Multiply: "grey",
     keras.layers.merge.Add: "grey",
-    keras.layers.normalization.BatchNormalization: "#2e7834",
+    keras.layers.normalization.BatchNormalization: "#add8e6y",
     keras.layers.recurrent.LSTM: "#A8CFE7",
     keras.layers.recurrent.GRU: "#ff6961",
     keras.layers.core.Activation: "#9896C8",
@@ -201,7 +201,7 @@ def model_to_dot(model,
         if not expand_nested or not isinstance(layer, Model):
             node = pydot.Node(layer_id,
                               label=label.split(":")[-1],
-                              color=LAYER_COLOR_DICT.get('layer_type', 'grey'),
+                              color=LAYER_COLOR_DICT.get(layer_type, 'grey'),
                               **NODE_KWARGS)
             dot.add_node(node)
 

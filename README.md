@@ -26,7 +26,7 @@ draw_graph(inception)
 <img src='docs/resnet50.png'>
 
 ### InceptionV3
-<img src='docs/inception_v3.png'>
+<img src='docs/inceptionv3.png'>
 
 ### MobileNet
 <img src='docs/mobilenet.png'>

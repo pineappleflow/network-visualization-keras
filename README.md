@@ -7,7 +7,10 @@ This repository extends the ```keras.utils.plot_model``` function to add semanti
 
 Styles are inspired from [this Google AI blog](https://ai.googleblog.com/2016/08/improving-inception-and-image.html)
 
-**TODO** Fork keras repository.
+**TODO**
+- Fork keras repository
+- Find modules
+- Consider parsing model_json instead
 
 ## Use
 ```python

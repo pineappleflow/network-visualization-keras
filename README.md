@@ -1,30 +1,20 @@
-# Keras Network Visualization
+# Keras Visualization Utils 2
 
 ## Introduction
-Neural Network visualization is a key part of communicating novel architectures, whether in the academic or research space. Commonly used tools like ```keras.utils.plot_model``` do well to help in presenting model complexity and in debugging purposes, but fail to communicate architectures effectively. Alternatively, Tensorboard offers a semantically more pleasing presentation, but requires that tensors be loaded into memory - making visualization computationally expensive. This repository aims to combine the best of both by drawing comprehensive and semantically pleasing network graphs.
+Neural Network visualization is a key part of communicating novel architectures, whether in the academic or research space. Commonly used tools like ```keras.utils.plot_model``` do well to help in presenting model complexity and in debugging purposes, but fail to communicate architectures effectively. Alternatively, Tensorboard offers a semantically more pleasing presentation, but requires that tensors be loaded into memory - making visualization computationally expensive.
+
+This repository extends the ```keras.utils.plot_model``` function to add semantically more pleasing representation.
 
 Styles are inspired from [this Google AI blog](https://ai.googleblog.com/2016/08/improving-inception-and-image.html)
 
-## Setup
-```shell
-pip install -r requirements.txt
-python install setup.py 
-pip install . 
-```
+**TODO** Fork keras repository.
 
 ## Use
 ```python
-from keras.applications.inception_v3 import InceptionV3
-from network_visualization import draw_graph
+from keras.applications.vgg16 import VGG16
+from viz_utils2 import plot_model
 
-inception = InceptionV3()
+vgg16 = VGG16()
 draw_graph(inception)
 ```
-
-## Examples
-**Inception v3**
-<br> 
-
-<img src="inception_v3.png">
-
 

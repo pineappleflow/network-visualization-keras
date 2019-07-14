@@ -20,8 +20,7 @@ draw_graph(inception)
 
 ## Examples
 ### VGG16
-
-<img src='docs/VGG16.png'>
+<img src='docs/vgg16.png'>
 
 ### ResNet50
 <img src='docs/resnet50.png'>

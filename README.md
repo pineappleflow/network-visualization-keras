@@ -32,4 +32,4 @@ draw_graph(inception)
 <img src='docs/mobilenet.png'>
 
 ### Inception ResNet
-<img src='docs/inceptionresnet50.png'>
+<img src='docs/inceptionresnet.png'>
